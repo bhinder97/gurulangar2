@@ -4,6 +4,8 @@ import Header from '../ui/Header.js';
 import ServicesGallery from '../components/ServicesGallery.js';
 import ProductsGallery from '../components/ProductsGallery.js';
 
+//This page is the 'our work" page, was named products at the beginning of the template
+
 const Products = () => {
     return (
         <React.Fragment>

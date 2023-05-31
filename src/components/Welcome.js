@@ -3,15 +3,16 @@ import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import Typography from "@mui/material/Typography";
 import ProgressiveImage from "react-progressive-graceful-image";
-import image from "../images/Welcome.jpg";
+import image from "../images/roce-test.jpg";
 import placeholderSrc from "../images/welcome-tiny.webp";
 import FadeDown from "./animation/FadeDown.js";
 
 import "./css/Welcome.css";
+import { Hidden } from "@mui/material";
 
 const Welcome = () => {
   return (
-    <div>
+    <div className="welcome-div">
       <FadeDown>
         <ProgressiveImage src={image} placeholder={placeholderSrc}>
           {(src, loading) => (
