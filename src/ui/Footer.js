@@ -13,9 +13,9 @@ const Footer = (props) => {
         <div style={{backgroundColor: 'black', width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
             <img style={{ width: '8%', margin:"3vh"}} src={logo} alt="Logo" loading="lazy"/>
             <div style={{margin: '5px'}}>
-                <a style={{padding: '5px'}} href="https://facebook.com"><FacebookIcon style={{color: 'white'}}/></a>
+                <a style={{padding: '5px'}} href="https://www.facebook.com/gnlangarssi"><FacebookIcon style={{color: 'white'}}/></a>
                 <a style={{padding: '5px'}} href="https://twitter.com"><TwitterIcon style={{color: 'white'}}/></a>
-                <a style={{padding: '5px'}} href="https://instagram.com"><InstagramIcon style={{color: 'white'}}/></a>
+                <a style={{padding: '5px'}} href="https://www.instagram.com/gnlangarssi/"><InstagramIcon style={{color: 'white'}}/></a>
                 <a style={{padding: '5px'}} href="https://linkedin.com"><LinkedInIcon style={{color: 'white'}}/></a>
                 <p className="signature">Developed by Webtivity.io</p>
             </div>
