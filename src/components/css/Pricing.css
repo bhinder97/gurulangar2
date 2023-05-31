@@ -1,0 +1,87 @@
+.pricing-div {
+  background-color: rgb(45, 49, 51);
+  margin-top: 0;
+  padding: 2em;
+  height: auto;
+}
+
+.pricing-headers {
+  text-align: center;
+}
+
+.our-prices {
+  color: rgb(235, 75, 59);
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0; */
+}
+
+.pricing-container .pricing-card {
+  position: relative;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.pricing-container .pricing-card .pricing-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.pricing-container .pricing-card .pricing-box:hover {
+  transform: translateY(-15px);
+}
+
+.pricing-container .pricing-card .pricing-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(120, 115, 115, 0.03);
+}
+
+.pricing-container .pricing-card .pricing-box .pricing-content {
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+.pricing-container .pricing-card .pricing-box .pricing-content {
+  font-size: 1.7rem;
+  /*color: #80ffec;*/
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+  /* font-family: 'Abril Fatface', cursive !important; */
+  /* text-transform: uppercase; */
+}
+
+.pricing-container .pricing-card .pricing-box .pricing-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}

@@ -1,0 +1,28 @@
+.history-container {
+    background-color: rgba(39, 43, 46, 0.8);
+    background-image: url("../../images/logo2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30vh;
+    padding: 4em;
+    background-blend-mode: color;
+    height: 100%;
+}
+
+.history-headers {
+    text-align: center;
+}
+
+.history-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-headline {
+    color: rgb(235,75,59);
+}
+
+.paragraph-info {
+    padding: 0 2em;
+}

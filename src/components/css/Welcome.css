@@ -1,0 +1,34 @@
+.welcome-div {
+  height: 90vh; 
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.welcome-image {
+  object-fit: cover;
+  height: 90.5vh;
+  width: 100vw;
+}
+
+.title {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  width: 100%;
+}
+
+.loading {
+  filter: blur(10px);
+  opacity: 0.3;
+}
+
+.loaded {
+  opacity: 0.6;
+  filter: blur(0px);
+  transition: filter 0.75s linear;
+}

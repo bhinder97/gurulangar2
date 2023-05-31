@@ -1,0 +1,31 @@
+.barbers-main {
+    margin-top: 0;
+    padding: 2em;
+    height: auto;
+    background-color: rgb(18,18,18);
+}
+
+.barbers-headers {
+    text-align: center;
+}
+
+
+.barbers-headline {
+    color: rgb(235,75,59);
+}
+
+.grid-div {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barbers-card-media {
+    height: 50vh;
+    max-width: 100%;
+}
+
+.barbers-card-content {
+    background-color: rgb(45, 49, 51);
+    text-transform: uppercase;
+}

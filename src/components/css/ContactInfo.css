@@ -1,0 +1,13 @@
+.contact-main-div {
+    padding: 2em;
+    background-color: #181a1b;
+}
+
+.contact-headline {
+    color: rgb(235,75,59);
+}
+
+.image-map {
+    max-width: 100%;
+    border: 4px solid rgb(235, 75, 59);
+}

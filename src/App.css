@@ -1,0 +1,27 @@
+.App {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -ms-overflow-style: none !important; /* Internet Explorer 10+ */
+  scrollbar-width: none !important; /* Firefox */
+  color: white;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.under-orange {
+  font-family: "Abril Fatface", cursive !important;
+  font-size: 30px;
+}
+
+.gallery-subheader {
+  font-family: "Abril Fatface", cursive;
+  font-size: 30px;
+}
