@@ -9,7 +9,7 @@ import ProductsGallery from '../components/ProductsGallery.js';
 const Products = () => {
     return (
         <React.Fragment>
-            <Header name="our barber shop" />
+            <Header name="Our Work" />
             <ServicesGallery/>
             <ProductsGallery/>
         </React.Fragment>
