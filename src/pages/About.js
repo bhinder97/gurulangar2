@@ -9,10 +9,13 @@ import Barbers from '../components/Barbers.js';
 const About = () => {
     return (
         <div>
-            <Header name="ABOUT US" />
-            <Pricing />
-            <History />
-            <Barbers />
+            <React.Fragment>
+                <Header name="ABOUT US" />
+                <Pricing />
+                <History />
+                <Barbers />
+            </React.Fragment>
+
         </div>
     );
 }

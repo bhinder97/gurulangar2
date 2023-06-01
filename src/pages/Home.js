@@ -8,9 +8,12 @@ import Gallery from "../components/Gallery.js";
 const Home = () => {
   return (
     <div>
-      <Welcome />
-      <ShopInfo />
-      <Gallery />
+      <React.Fragment>
+        <Welcome />
+        <ShopInfo />
+        <Gallery />
+      </React.Fragment>
+
     </div>
   );
 };
