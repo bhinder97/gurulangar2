@@ -20,6 +20,7 @@ import Box from "@mui/material/Box";
 import { ThemeProvider } from "@mui/material";
 import theme from "../ui/theme.js";
 import { NavLink } from "react-router-dom";
+import { Button } from "@mui/material";
 
 import logo from "../images/logo.png";
 import "./css/Navbar.css";
@@ -77,6 +78,7 @@ function Navbar(props) {
             </ListItemButton>
           </ListItem>
         ))}
+        <Button href="https://www.paypal.com/ca/home">Donate</Button>
       </List>
     </Box>
   );
@@ -97,7 +99,7 @@ function Navbar(props) {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { md: "none" } }}
           >
-            <MenuIcon className="icons" onClick={handleDrawerToggle} />
+            <MenuIcon className="drawer-icon" onClick={handleDrawerToggle}/>
           </IconButton>
           <Box
             sx={{
@@ -126,7 +128,9 @@ function Navbar(props) {
                   {navItem.icon}
                   {navItem.heading}
                 </NavLink>
+
               ))}
+              <Button href="https://www.paypal.com/ca/home">Donate</Button>
             </div>
           </Box>
         </Toolbar>

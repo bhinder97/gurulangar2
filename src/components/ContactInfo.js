@@ -69,7 +69,7 @@ const ContactInfo = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <CssTextField fullWidth label="Message" id="custom-css-outlined-input" />
+              <CssTextField multiline={true} rows={7} fullWidth label="Message" id="custom-css-outlined-input" />
             </Grid2>
             <Grid2
               xs={12}

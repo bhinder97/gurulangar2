@@ -41,12 +41,16 @@
     padding-right: 5em;
 }
 
+.drawer-icon{
+    color: white !important;
+}
+
 .list-item {
     color: white;
 }
 
 .drawer-title {
-    color: white;
+    color: white !important;
 }
 
 
@@ -70,6 +74,6 @@
 
 @media (min-width: 1200px) {
     .app-bar {
-        padding: 0 10em;
+        padding: 0 2em;
     }
 }
