@@ -34,7 +34,7 @@ const Welcome = () => {
         <Typography variant="h1" mr={2} ml={2}>
           Welcome to the
           <br />
-          Barber Shop
+          TEST FOR SITE
         </Typography>
 
         <Button
